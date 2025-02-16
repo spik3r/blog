@@ -1,0 +1,77 @@
+---
+permalink: /404.html
+layout: page
+---
+
+<!--<style type="text/css" media="screen">-->
+<!--  .container {-->
+<!--    margin: 10px auto;-->
+<!--    max-width: 600px;-->
+<!--    text-align: center;-->
+<!--  }-->
+<!--  h1 {-->
+<!--    margin: 30px 0;-->
+<!--    font-size: 4em;-->
+<!--    line-height: 1;-->
+<!--    letter-spacing: -1px;-->
+<!--  }-->
+<!--</style>-->
+<!---->
+<!--<div class="container">-->
+<!--  <h1>404</h1>-->
+<!---->
+<!--  <p><strong>Page not found :(</strong></p>-->
+<!--  <p>The requested page could not be found.</p>-->
+<!--</div>-->
+
+<style>
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+.error-container {
+  max-width: 600px;
+  margin: auto;
+}
+h1 {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.glitch {
+  display: inline-block;
+  animation: glitch 1s infinite;
+}
+@keyframes glitch {
+0% { transform: translate(0); }
+20% { transform: translate(-5px, 5px); }
+40% { transform: translate(5px, -5px); }
+60% { transform: translate(-5px, -5px); }
+80% { transform: translate(5px, 5px); }
+100% { transform: translate(0); }
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  background: #0078D7;
+  color: white;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #005ea6;
+}
+</style>
+
+<div class="error-container">
+  <h1 class="glitch">404</h1>
+  <p><strong>Oops! This page has vanished into the void.</strong></p>
+  <p>Either the link is broken, you typed the wrong URL, or the page just decided to ghost us. 👻</p>
+  <p><em>(Maybe check under the couch?)</em></p>
+  <a href="{{ site.baseurl }}/" class="btn">Go Home</a>
+</div>

@@ -1,0 +1,11 @@
+.footer-col-wrapper {
+  display: flex;
+}
+
+.footer-col-wrapper .footer-col:first-child {
+  flex: 1;
+}
+
+.footer-col-wrapper .footer-col:last-child {
+  flex: 2;
+}

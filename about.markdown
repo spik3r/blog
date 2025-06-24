@@ -13,4 +13,3 @@ Expect a mix of programming deep dives, rants about development setups (because 
 
 If that sounds like your kind of chaos, stick around. If not, well… I hear cat videos are nice too. 😄
 
-
